@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Ysabeau+SC:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>AppoinTEETH</title>
+</head>
+<body class="costum-bg">
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary navigation sticky-top">
+        <div class="container-fluid">
+        <a class="navbar-brand fw-bolder" href="#">AppoinTEETH</a>
+        <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about_us">About us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact us</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Pricing
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Basic Dental Care</a></li>
+                        <li><a class="dropdown-item" href="#">Other Services</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Online Consultation</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <button type="button" class="btn btn-outline-dark shadow-none me-lg-3 me-2 fw-bolder" data-bs-toggle="modal" data-bs-target="#loginModal">
+                Login
+            </button>
+            <button type="button" class="btn btn-outline-dark shadow-none fw-bolder" data-bs-toggle="modal" data-bs-target="#registerModal">
+                Register
+            </button>
+        </div>
+        </div>
+    </nav>
+    <!--Hero section-->
+    <center>
+        <section class="hero mt-5 text-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 offset-lg-2">
+                        <h1>Welcome to our Dental Care Clinic</h1>
+                        <p>Book an appointment with our experienced dentists today!</p>
+                        <a href="#appointment">
+                            <button class="button-82-pushable" role="button" id="appoint-btn">
+                                <span class="button-82-shadow"></span>
+                                <span class="button-82-edge"></span>
+                                <span class="button-82-front text">
+                                    Make Appoinment
+                                </span>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </center>
+    <!--about us-->
+    <div class="my-5 px-4 text-light" id="about_us">
+        <h2 class="fw-bold h-font text-center">ABOUT US</h2>
+        <div class="a-line bg-dark"></div>
+        <p class="text-center mt-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea odit, nobis placeat magni delectus, debitis totam repellat dolorem laudantium, laborum voluptates. Laborum eligendi tempore quo consectetur praesentium voluptatibus nisi, ex at sapiente, nobis porro est. Velit quos ipsam architecto autem!
+        </p>
+    </div>
+    <div class="container">
+        <div class="row justify-content-between align-items-center text-light">
+            <div class="col-lg-6 col-md-5 mb-4 order-lg-1 order-md-1 order-2">
+                <h3 class="mb-3">
+                    Dr. Firstname Lastname
+                </h3>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Earum facilis suscipit enim rem labore accusantium odio.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Earum facilis suscipit enim rem labore accusantium odio.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Earum facilis suscipit enim rem labore accusantium odio.
+                </p>
+            </div>
+            <div class="col-lg-5 col-md-5 mb-4 order-lg-2 order-md-2 order-1">
+                <img src="./services/emergency_dentist_different-scaled.webp" alt="" class="w-100">
+            </div>
+        </div>
+    </div>
+
+    <!--Services-->
+    <h2 class="mt-5 pt-4 mb-4 text-center fw-bold h-font text-light" id="services">OUR SERVICES</h2>
+    <div class="container">
+        <div class="row justify-content-between px-lg-0 px-md-0 px-5">
+
+                <div class="col-lg-2 col-md-2 text-center bg-white rounded shadow py-4 my-3">
+                    <img src="services/Endodontics.png" width="80%px">
+                    <h6>Endodontics</h6>
+                </div>
+                <div class="col-lg-2 col-md-2 text-center bg-white rounded shadow py-4 my-3">
+                    <img src="services/General+Dentistry.png" width="80%px">
+                    <h6>General Dentistry</h6>
+                </div>
+                <div class="col-lg-2 col-md-2 text-center bg-white rounded shadow py-4 my-3">
+                    <img src="services/Oral+Surgery+and+Implant+Dentistry.png" width="80%px">
+                    <h6>Oral Surgery and Implant Dentistry</h6>
+                </div>
+                <div class="col-lg-2 col-md-2 text-center bg-white rounded shadow py-4 my-3">
+                    <img src="services/Pediatric+Dentistry.png" width="80%px">
+                    <h6>Pediatric Dentistry</h6>
+                </div>
+                <div class="col-lg-2 col-md-2 text-center bg-white rounded shadow py-4 my-3">
+                    <img src="services/Prosthodontics.png" width="80%px">
+                    <h6>Prosthodontics</h6>
+                </div>
+
+            <div class="col-lg-12 text-center mt-5">
+                <a href="facilities.php" class="btn btn-sm btn-outline-info rounded-5 fw-bold shadow-none">See Services >>></a>
+            </div>
+        </div>
+    </div>
+
+    <!--LOGIN FORM MODAL-->
+    <div class="modal fade" id="loginModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <form id="login-form">
+                    <div class="modal-header">
+                        <h5 class="modal-title d-flex align-items-center">
+                            <i class="bi bi-person-circle fs-3 me-2"></i>User Login
+                        </h5>
+                        <button type="reset" class="btn-close shadow-none" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        
+                        <div class="form-floating mb-3 shadow-none">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                            <label for="floatingInput">Email address</label>
+                        </div>
+                        <div class="form-floating mb-3 shadow-none">
+                            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                            <label for="floatingPassword">Password</label>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-between">
+                            <button class="btn btn-dark shadow-none px-4 mb-2">LOGIN </button>
+                            <button type="button" class="btn text-secondary text-decoration-none mb-2 shadow-none p-0" data-bs-target="#forgotModal" data-bs-toggle="modal" data-bs-dismiss="modal">
+                            Forgot Pasword?
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--REGISTRATION FORM MODAL-->
+    <div class="modal fade" id="registerModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <form id="register-form">
+                    <div class="modal-header">
+                        <h5 class="modal-title d-flex align-items-center">
+                            <i class="bi bi-person-add fs-3 me-2"></i>User Registration
+                        </h5>
+                        <button type="reset" class="btn-close shadow-none" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <span class="badge bg-secondary text-light mb-3 text-wrap lh-base">
+                            Note: Your Details must match with your ID (philHealth Card, Passport, Driving license, etc...) that will be required during check-in.
+                        </span>
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-6 mb-3 ps-0">
+                                    <label class="form-label">Name</label>
+                                    <input type="text" name="name" class="form-control shadow-none" placeholder="Enter your fullname" required>
+                                </div>
+                                <div class="col-md-6 mb-3 p-0">
+                                    <label class="form-label">Email</label>
+                                    <input type="email" name="email" class="form-control shadow-none" placeholder="Enter your valid email" required>
+                                </div>
+                                <div class="col-md-6 mb-3 ps-0">
+                                    <label class="form-label">Contact Number</label>
+                                    <input type="number" name="conNum" class="form-control shadow-none" placeholder="(e.g 0951******6)" required>
+                                </div>
+                                <div class="col-md-6 mb-3 p-0">
+                                    <label class="form-label">Picture</label>
+                                    <input type="file" name="profile" accept=".jpg, .jpeg, .png, .webp"class="form-control shadow-none" placeholder="Enter your address" required>
+                                </div>
+                                <div class="col-md-12 mb-3 p-0">
+                                    <label class="form-label">Address</label>
+                                    <textarea name="address" class="form-control shadow-none" rows="1" required></textarea>
+                                </div>
+                                <div class="col-md-6 mb-3 ps-0">
+                                    <label class="form-label">Zip Code</label>
+                                    <input type="number" name="zipcode" class="form-control shadow-none" placeholder="(e.g 5205)" required>
+                                </div>
+                                <div class="col-md-6 mb-3 p-0">
+                                    <label class="form-label">Date of Birth</label>
+                                    <input type="date" name="birthday" class="form-control shadow-none" placeholder="" required>
+                                </div>
+                                <div class="col-md-6 mb-3 ps-0">
+                                    <label class="form-label">Password</label>
+                                    <input type="password" name="password" class="form-control shadow-none" placeholder="Create Password" required>
+                                </div>
+                                <div class="col-md-6 mb-3 p-0">
+                                    <label class="form-label">Confirm Password</label>
+                                    <input type="password" name="cPassword" class="form-control shadow-none" placeholder="Confirm Password" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <button class="btn btn-dark shadow-none">REGISTER</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.getElementById('appoint-btn').addEventListener('click', function(){
+            Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'Something went wrong! Site not ready',
+                footer: '<a href="https://www.facebook.com/bibo.pascua" target="_blank">Help?</a>'
+            })
+        })
+    </script>
+</body>
+</html>
